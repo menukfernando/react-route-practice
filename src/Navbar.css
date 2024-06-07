@@ -1,0 +1,23 @@
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .nav-links{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: skyblue;
+    transition: 0.5s ease-out;
+}
+
+.navbar .nav-links:hover{
+    color: blueviolet;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar .nav-links:active{
+    color: blueviolet;
+}
+
